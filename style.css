@@ -1,0 +1,564 @@
+* {
+    margin: 0%; padding: 0%;
+    text-decoration: none; list-style: none;
+    font-family: arial;
+}
+
+body {
+    background-color: black;
+}
+
+@media (min-width: 370px) {
+    /* Awal Navabar*/
+    nav {
+        background-color: black; display: flex; position: fixed; padding: 10px 0px;
+        width: 100%; align-items: center; top: 0px; border-bottom: 2px solid white;
+        justify-content: space-between;
+    }
+    
+    nav .logo {
+        color: white; font-weight: bold; font-size: 17px; margin-left: 20px;
+    }
+
+    .nama {
+        color: white; font-weight: bold; margin-right: 20px;
+    }
+    /* Akhir Navbar */
+    
+    /* Awal Container 1 */
+    .container {
+        margin-top: 80px;
+    }
+    .container1 {
+        color: white; margin-left: 20px; display: flex;
+    }
+
+    .container1 h1 {
+        font-size: 20px; font-family: 'cambria math'; line-height: 1.5;
+    }
+
+    span {
+        color: red; font-family: 'cambria math';
+    }
+
+    .container1 h2 {
+        font-size: 15px; font-family: 'cambria math';
+    }
+
+    .container1 h3 {
+        font-size: 13px; font-family: 'cambria math'; line-height: 1.5; font-weight: 500;
+    }
+
+    .container1 .img {
+        width: 100%; margin-top: -10px;
+    }
+    /* Akhir Container 1 */
+
+    /* Awal Sosmed */
+    .home-sci {
+        width: 170px; justify-content: space-between; margin-top: -20px;
+        margin-left: 12px; text-align: center;
+    }
+    
+    .home-sci a {
+        display: inline-flex; justify-content: center; align-items: center;
+        width: 30px; height: 30px; background: transparent;
+        font-size: 15px; color: white; text-decoration: none; margin-top: 5px;
+    }
+    /* Akhir Sosmed */
+
+    /* Awal Container 2 */
+    .container2 {
+        background-color: #333; width: 100%; margin-top: 20px;
+    }
+
+    .container2 .text {
+        width: 90%; margin-left: 20px;
+    }
+
+    .container2 h1 {
+        text-align: center; color: white; padding: 10px; border-bottom: 1px solid white;
+        font-size: 20px; font-family: 'cambria math';
+    }
+
+    .container2 h2 {
+        color: white; font-size: 15px; text-align: center; padding: 10px; font-family: 'cambria math';
+    }
+
+    .container2 h3 {
+        color: white; font-family: 'cambria math'; font-size: 13px; text-align: justify; font-weight: 100;
+    }
+    /* Akhir Container 2 */
+
+    /* Awal Box */
+    .box {
+        width: 95%; margin-left: 10px; justify-content: center; align-items: center;
+    }
+
+    .box h1 {
+        color: white; text-align: center; font-family: 'cambria math'; font-size: 20px;
+    }
+    
+    .card {
+        padding: 20px 20px; background: #333; border-radius: 20px; margin: 20px; text-align: center;
+        border: 1px solid red;
+    }
+    
+    .card h5 {
+        color: white; font-size: 18px; font-family: 'cambria math';
+    }
+
+    .card p {
+        color: white; font-weight: 500; font-size: 13px; line-height: 1.5;
+        font-family: 'cambria math'; margin-top: -10px; text-align: justify;
+    }
+    /* Akhir Box */
+
+    /* Awal Container 3 */
+    .container3 {
+        background-color: #333; width: 100%; margin-top: 30px;
+    }
+
+    .container3 .text {
+        width: 90%; margin-left: 20px;
+    }
+
+    .container3 h1 {
+        text-align: center; color: white; padding: 20px 0px;
+        font-size: 20px; font-family: 'cambria math'; margin-bottom: -20px;
+    }
+
+    .container3 h2 {
+        font-size: 20px;margin-bottom: 10px; font-family: 'cambria math';
+    }
+
+    .skill-bar {
+        padding-bottom: 10px; color: white;
+    }
+    
+    .skill-bar p {
+        text-align: left; margin-top: 10px;
+    }
+    
+    .skill-box {
+        text-align: right; width: 100%; background-color: white;
+    }
+    
+    .html {
+        width: 90%; background-color: red;
+    }
+    
+    .css {
+        width: 80%; background-color: red;
+    }
+    
+    .javascript {
+        width: 20%; background-color: red;
+    }
+    
+    .react {
+        width: 0%; background-color: red;
+    }
+
+    .php {
+        width: 50%;
+        background-color: red;
+    }
+    
+    .python {
+        width: 0%;
+        background-color: red;
+    }
+    
+    .mysql {
+        width: 50%;
+        background-color: red;
+    }
+    
+    .firebase {
+        width: 0%;
+        background-color: red;
+    }
+
+    .figma {
+        width: 20%;
+        background-color: red;
+    }
+    
+    .sketch {
+        width: 0%;
+        background-color: red;
+    }
+    
+    .photoshop {
+        width: 30%;
+        background-color: red;
+    }
+    
+    .lightroom {
+        width: 80%;
+        background-color: red;
+    }
+    /* Akhir Container 3 */
+
+    /* Awal Sosmed */
+    .home-sci2 {
+        width: 100%; justify-content: space-between;
+        text-align: center;
+    }
+
+    .home-sci2 h1 {
+        color: white; font-family: 'cambria math'; font-size: 20px;
+    }
+    
+    .home-sci2 a {
+        display: inline-flex; justify-content: center; align-items: center;
+        width: 30px; height: 30px; background: transparent; padding: 0px 20px;
+        font-size: 20px; color: white; text-decoration: none;
+    }
+    /* Akhir Sosmed */
+
+    /* Awal Container 4 */
+    footer {
+        width: 100%; font-size: 10px; text-align: center;
+        color: white;
+    }
+    /* Akhir Container 4 */
+}
+
+@media (min-width: 768px) {
+    /* Awal Navabar*/
+    nav {
+        background-color: black; display: flex; position: fixed; padding: 20px 0px;
+        width: 100%; align-items: center; top: 0px; border-bottom: 2px solid white;
+        justify-content: space-between;
+    }
+    
+    nav .logo {
+        color: white; font-weight: bold; font-size: 40px; margin-left: 40px;
+    }
+
+    .nama {
+        color: white; font-weight: bold; margin-right: 50px; font-size: 30px;
+    }
+    /* Akhir Navbar */
+    
+    /* Awal Container 1 */
+    .container {
+        margin-top: 120px;
+    }
+    .container1 {
+        color: white; margin-left: 20px; display: flex;
+    }
+
+    .container1 h1 {
+        font-size: 35px; font-family: 'cambria math'; line-height: 1.5;
+    }
+
+    span {
+        color: red; font-family: 'cambria math';
+    }
+
+    .container1 h2 {
+        font-size: 25px; font-family: 'cambria math';
+    }
+
+    .container1 h3 {
+        font-size: 23px; font-family: 'cambria math'; line-height: 1.5; font-weight: 500;
+    }
+
+    .container1 .img {
+        width: 70%; margin-top: -10px;
+    }
+    /* Akhir Container 1 */
+
+    .text {
+        margin-top: 20px;
+    }
+
+    /* Awal Sosmed */
+    .home-sci {
+        width: 100%; justify-content: space-between; margin-top: -20px;
+        text-align: left;
+    }
+    
+    .home-sci a {
+        display: inline-flex; justify-content: center; align-items: center;
+        height: 25px; background: transparent; margin: 40px 20px;
+        font-size: 30px; color: white; text-decoration: none;
+    }
+    /* Akhir Sosmed */
+
+    /* Awal Container 2 */
+    .container2 {
+        background-color: #333; width: 100%; margin-top: 20px; margin: 20px 0px;
+    }
+
+    .container2 .text {
+        width: 95%; margin-left: 20px;
+    }
+
+    .container2 h1 {
+        text-align: center; color: white; padding: 10px; border-bottom: 1px solid white;
+        font-size: 35px; font-family: 'cambria math';
+    }
+
+    .container2 h2 {
+        color: white; font-size: 25px; text-align: center; padding: 10px; font-family: 'cambria math';
+    }
+
+    .container2 h3 {
+        color: white; font-family: 'cambria math'; font-size: 23px; text-align: justify; font-weight: 100;
+    }
+    /* Akhir Container 2 */
+
+    /* Awal Box */
+    .box {
+        width: 95%; margin-left: 20px; justify-content: center; align-items: center;
+    }
+
+    .box h1 {
+        color: white; text-align: center; font-family: 'cambria math'; font-size: 35px;
+    }
+    
+    .card {
+        padding: 20px 20px; background: #333; border-radius: 20px; margin: 20px; text-align: center;
+        border: 1px solid red;
+    }
+    
+    .card h5 {
+        color: white; font-size: 25px; font-family: 'cambria math';
+    }
+
+    .card p {
+        color: white; font-weight: 500; font-size: 23px; line-height: 1.5;
+        font-family: 'cambria math'; margin-top: -10px; text-align: justify;
+    }
+    /* Akhir Box */
+
+    /* Awal Container 3 */
+    .container3 {
+        background-color: #333; width: 100%; margin-top: 30px;
+    }
+
+    .container3 .text {
+        width: 90%; margin-left: 20px;
+    }
+
+    .container3 h1 {
+        text-align: center; color: white; padding: 20px 0px;
+        font-size: 35px; font-family: 'cambria math'; margin-bottom: -20px;
+    }
+
+    .container3 h2 {
+        font-size: 25px;margin-bottom: 10px; font-family: 'cambria math';
+    }
+
+    .skill-bar {
+        padding-bottom: 10px; color: white;
+    }
+    
+    .skill-bar p {
+        text-align: left; margin-top: 10px;
+    }
+    
+    .skill-box {
+        text-align: right; width: 100%; background-color: white;
+    }
+    
+    .html {
+        width: 90%; background-color: red;
+    }
+    
+    .css {
+        width: 80%; background-color: red;
+    }
+    
+    .javascript {
+        width: 0%; background-color: red;
+    }
+    
+    .react {
+        width: 0%; background-color: red;
+    }
+
+    .php {
+        width: 50%;
+        background-color: red;
+    }
+    
+    .python {
+        width: 0%;
+        background-color: red;
+    }
+    
+    .mysql {
+        width: 50%;
+        background-color: red;
+    }
+    
+    .firebase {
+        width: 0%;
+        background-color: red;
+    }
+
+    .figma {
+        width: 10%;
+        background-color: red;
+    }
+    
+    .sketch {
+        width: 0%;
+        background-color: red;
+    }
+    
+    .photoshop {
+        width: 30%;
+        background-color: red;
+    }
+    
+    .lightroom {
+        width: 80%;
+        background-color: red;
+    }
+    /* Akhir Container 3 */
+
+    /* Awal Sosmed */
+    .home-sci2 {
+        width: 100%; justify-content: space-between;
+        text-align: center;
+    }
+
+    .home-sci2 h1 {
+        color: white; font-family: 'cambria math'; font-size: 35px;
+    }
+    
+    .home-sci2 a {
+        display: inline-flex; justify-content: center; align-items: center;
+        width: 30px; height: 30px; background: transparent; padding: 0px 20px;
+        font-size: 30px; color: white; text-decoration: none;
+    }
+    /* Akhir Sosmed */
+
+    /* Awal Container 4 */
+    footer {
+        width: 100%; font-size: 20px; text-align: center;
+        color: white;
+    }
+    /* Akhir Container 4 */
+}
+
+@media (min-width: 1024px) {
+        /* Awal Sosmed */
+        .home-sci {
+            width: 100%; justify-content: space-between; margin-top: -90px;
+            text-align: left;
+        }
+        
+        .home-sci a {
+            display: inline-flex; justify-content: center; align-items: center;
+            height: 25px; background: transparent; margin: 40px 20px;
+            font-size: 30px; color: white; text-decoration: none;
+        }
+        /* Akhir Sosmed */
+
+        .container1 .img {
+            width: 50%; margin-top: -10px;
+        }
+
+        .text {
+            margin-top: 60px;
+        }
+
+        .card p {
+            color: white; font-weight: 500; font-size: 23px; line-height: 1.5;
+            font-family: 'cambria math'; margin-top: -70px; text-align: justify;
+        }
+
+        .container3 {
+            background-color: #333; width: 100%; margin-top: 30px;
+        }
+    
+        .container3 .text {
+            width: 90%; margin-left: 20px;
+        }
+    
+        .container3 h1 {
+            text-align: center; color: white; padding: 20px 0px;
+            font-size: 35px; font-family: 'cambria math'; margin-bottom: -20px;
+        }
+    
+        .container3 h2 {
+            font-size: 25px;margin-bottom: 10px; font-family: 'cambria math';
+        }
+    
+        .skill-bar {
+            padding-bottom: 10px; color: white;
+        }
+        
+        .skill-bar p {
+            text-align: left; margin-top: 10px;
+        }
+        
+        .skill-box {
+            text-align: right; width: 100%; background-color: white;
+        }
+        
+        .html {
+            width: 90%; background-color: red;
+        }
+        
+        .css {
+            width: 80%; background-color: red;
+        }
+        
+        .javascript {
+            width: 0%; background-color: red;
+        }
+        
+        .react {
+            width: 0%; background-color: red;
+        }
+    
+        .php {
+            width: 50%;
+            background-color: red;
+        }
+        
+        .python {
+            width: 0%;
+            background-color: red;
+        }
+        
+        .mysql {
+            width: 50%;
+            background-color: red;
+        }
+        
+        .firebase {
+            width: 0%;
+            background-color: red;
+        }
+    
+        .figma {
+            width: 10%;
+            background-color: red;
+        }
+        
+        .sketch {
+            width: 0%;
+            background-color: red;
+        }
+        
+        .photoshop {
+            width: 30%;
+            background-color: red;
+        }
+        
+        .lightroom {
+            width: 80%;
+            background-color: red;
+        }
+        /* Akhir Container 3 */
+    
+}
